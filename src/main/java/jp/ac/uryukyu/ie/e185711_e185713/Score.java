@@ -3,6 +3,11 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import java.awt.Graphics;
 import java.awt.Color;
+
+/**
+ * SBOのスコアを表示するクラス
+ * ウィンドウとタイトルを表示。
+ */
 public class Score {
     Score() {
         ScoreWindow sw = new ScoreWindow("SBO", 400, 300);
@@ -18,6 +23,10 @@ public class Score {
             setResizable(false);
         }
     }
+
+    /**
+     * ランプを作るクラス
+     */
     static class DrawScore extends JPanel {
         public void paintComponent(Graphics g) {
             int x = 100, x2 = 100, x3 = 100;

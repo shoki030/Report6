@@ -1,6 +1,23 @@
 package jp.ac.uryukyu.ie.e185711_e185713;
 import java.util.Random;
 import java.util.Scanner;
+
+/**
+ * Gameクラス
+ * ピッチャーとバッターの勝負をする。
+ *
+ * ピッチャー
+ * 0.ストレート
+ * 1.変化球
+ * 2.ボール球
+ *
+ * バッター
+ * 0.ミート
+ * 1.強打
+ * 2.バント
+ * 4.見逃し
+ *
+ */
 public class Game {
     Game() {
         int o = 0;//アウト
