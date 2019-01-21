@@ -13,7 +13,7 @@ public class Game {
             while (h != 1 && s != 3 && b != 4) {
                 Random rand = new Random();
                 int rand_num = rand.nextInt(3);
-                System.out.println(rand_num);
+                //System.out.println(rand_num);
                 System.out.println("0.ミート\n" + "1.強振\n" + "2.バント\n" + "3.見逃し\n" + "0~3を入力して:");
                 Scanner scan = new Scanner(System.in);
                 int num = scan.nextInt();
@@ -64,6 +64,7 @@ public class Game {
                 }
                 System.out.println("アウト:" + o + "\n");
                 ball_count = ball_count + 1;
+                Score sc = new Score();
             }
         }
         System.out.println("3アウト、チェンジ！");
