@@ -9,7 +9,7 @@ import java.awt.Color;
  * ウィンドウとタイトルを表示。
  */
 public class Score {
-    Score() {
+    public Score() {
         ScoreWindow sw = new ScoreWindow("SBO", 400, 300);
         sw.add(new DrawScore());
         sw.setVisible(true);
