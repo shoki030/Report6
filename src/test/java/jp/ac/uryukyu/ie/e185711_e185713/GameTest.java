@@ -6,9 +6,16 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class GameTest {
     @Test
-       public void testgame() {
-        Game.pitcher_pattern(0);
-        Game.player_pattern();
-        Game gm = new Game();
+    public void kai(){
+        int c = 0;
+        int rand = 0;
+        int num = 3;
+        Game game = new Game(c);
+        Game.pitcher_pattern(rand);
+        Game.player_pattern(num);
+        for(int i = 0; i <= 3; i++){
+            kai();
+        }
+        assertEquals(c, );
     }
 }
